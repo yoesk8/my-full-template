@@ -1,3 +1,14 @@
+/*-------General Styling-------*/
+
+body {
+  font-family: 'Lato', sans-serif
+}
+
+h1 {
+  margin-bottom: 40px
+}
+/*-------Testimonials-------*/
+
 .home-testimonial {
   background-color: #231834;
   height: 380px
@@ -70,6 +81,8 @@
 }
 
 
+/*------Navbar-------*/
+
 .navbar-brand img {
 
   background-position: center;
@@ -84,22 +97,43 @@
 }
 
 
-/*-----Header----*/
+
+/*-----About me----*/
 
 .about-me img {
   max-width: 100%;
 }
 
+.about-me-content  {
+
+  min-height: 600px;
+  }
+
+  .about-me-content strong{
+    display: block;
+  }
+
+  .about-me-content h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .about-me-content p {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  hr.sep-2 {
+    border: 0; 
+    height: 4px; 
+    background-image: linear-gradient(to right, #f0f0f0, #00b9ff, #59d941, #f0f0f0);
+  }
+
 
 /*------Contact-------*/
 
-body {
-  font-family: 'Lato', sans-serif
-}
 
-h1 {
-  margin-bottom: 40px
-}
 
 label {
   color: #333
