@@ -8,8 +8,19 @@
     height: 1200px;
     column-count: 2;
   }
+
+  #photo img{
+    width: 50%;
+  }
+
+  #contact {
+    height: 1200px;
+  }
+
   
 }
+
+
 
 
 
@@ -192,6 +203,8 @@ label {
   padding: 50px 0;
   color: #f0f9ff;
   background-color: #282d32;
+  position: sticky;
+  bottom: 0;
   
   
   
