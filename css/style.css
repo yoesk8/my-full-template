@@ -96,6 +96,7 @@ h1 {
   background-color: rgba(180, 190, 203, 0.4);
 }
 
+/*-----------Packages-----------*/
 
 
 /*-----About me----*/
@@ -131,6 +132,11 @@ h1 {
   }
 
 
+.my-qualifications  {
+  
+display: flex;
+justify-content: center;
+}
 /*------Contact-------*/
 
 
