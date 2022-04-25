@@ -11,7 +11,7 @@ h1 {
 
 .home-testimonial {
   background-color: #231834;
-  height: 380px
+  height: 600px;
 }
 
 .home-testimonial-bottom {
@@ -96,7 +96,6 @@ h1 {
   background-color: rgba(180, 190, 203, 0.4);
 }
 
-/*-----------Packages-----------*/
 
 
 /*-----About me----*/
@@ -136,10 +135,15 @@ h1 {
   
 display: flex;
 justify-content: center;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 /*------Contact-------*/
 
-
+.contact-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 
 label {
   color: #333
@@ -150,7 +154,8 @@ label {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   width: 80%;
-  margin-left: 3px
+  margin-left: 40px;
+  margin-top: 20px;
 }
 
 .help-block.with-errors {
@@ -168,7 +173,8 @@ label {
 .footer-dark {
   padding: 50px 0;
   color: #f0f9ff;
-  background-color: #282d32
+  background-color: #282d32;
+  
 }
 
 .footer-dark h3 {
@@ -253,4 +259,18 @@ label {
   opacity: 0.3;
   font-size: 13px;
   margin-bottom: 0
+}
+
+
+/*------Gallery----*/
+
+#photo {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0px;
+}
+
+#photo img{
+  width: 100%;
 }
