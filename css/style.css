@@ -1,7 +1,23 @@
+/*-------Media queries-------*/
+@media screen and (max-width:1200px) {
+
+  #testimonials {
+    height: 1200px;
+  }
+  #photo {
+    height: 1200px;
+    column-count: 2;
+  }
+  
+}
+
+
+
 /*-------General Styling-------*/
 
 body {
-  font-family: 'Lato', sans-serif
+  font-family: 'Lato', sans-serif;
+  
 }
 
 h1 {
@@ -13,6 +29,7 @@ h1 {
   background-color: #231834;
   height: 600px;
 }
+
 
 .home-testimonial-bottom {
   background-color: #f8f8f8;
@@ -171,9 +188,12 @@ label {
 /*-----Footer----*/
 
 .footer-dark {
+  
   padding: 50px 0;
   color: #f0f9ff;
   background-color: #282d32;
+  
+  
   
 }
 
@@ -267,9 +287,11 @@ label {
 #photo {
   clear: both;
   line-height: 0;
-  column-count: 4;
+  column-count: 3;
   column-gap: 0px;
 }
+
+
 
 #photo img{
   width: 100%;
