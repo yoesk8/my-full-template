@@ -34,6 +34,11 @@ body {
 h1 {
   margin-bottom: 40px
 }
+
+#page-container {
+  min-height: 100vh;
+  position: relative;
+}
 /*-------Testimonials-------*/
 
 .home-testimonial {
@@ -203,8 +208,10 @@ label {
   padding: 50px 0;
   color: #f0f9ff;
   background-color: #282d32;
-  position: sticky;
+  position: absolute;
   bottom: 0;
+  width: 100%;
+  
   
   
   
