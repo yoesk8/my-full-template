@@ -2,29 +2,25 @@
 @media screen and (max-width:1200px) {
 
   #testimonials {
-    height: 1200px;
+    height: 1300px;
   }
-  #photo {
-    height: 1200px;
-    column-count: 2;
+  .photo-container {
+    height: fit-content;
   }
-
+ 
   #photo img{
     width: 50%;
   }
 
-  #contact {
-    height: 1400px;
-  }
-
-  #photo {
-      height: 1500px;
-  }
-
   
+  .contact {
+  padding-top: 300px;
+    
+  }
+  .about-me img {
+    margin-top: 40px;
+  }
 }
-
-
 
 
 
@@ -50,6 +46,9 @@ h1 {
   margin-bottom: 20px;
 }
 
+.about-me img {
+  margin-top: 40px;
+}
  /*-------Gallery-------*/
 
  #photo {
@@ -66,7 +65,9 @@ h1 {
 /*-------Testimonials-------*/
 
 
-
+#testimonials {
+  height: 1000px;
+}
 .home-testimonial {
   background-color: #231834;
   height: 600px;
@@ -155,8 +156,6 @@ h1 {
   background-color: rgba(180, 190, 203, 0.4);
 }
 
-
-
 /*-----About me----*/
 
 .about-me {
@@ -207,6 +206,7 @@ margin-bottom: 20px;
 
 .contact {
   margin-top: 20px;
+  height: 800px;
 }
 
 .contact-container {
@@ -241,6 +241,9 @@ label {
 
 .footer-container {
     background-color: #f0f0f0;
+    position:absolute;
+   bottom:0;
+   width:100%;
 }
 
 
