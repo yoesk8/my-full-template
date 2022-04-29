@@ -12,6 +12,10 @@
     width: 50%;
   }
 
+  .about-me-content {
+   margin: 20px 100px;
+  }
+
   
   .contact {
   padding-top: 300px;
@@ -60,9 +64,9 @@ h1:hover {
 
 /*-------About me-------*/
 .about-me-content {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 190px
 }
+
 
 .about-me img {
   margin-top: 40px;
