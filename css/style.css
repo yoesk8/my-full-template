@@ -62,15 +62,8 @@ h1:hover {
   position: relative;
 }
 
-/*-------About me-------*/
-.about-me-content {
-  margin: 20px 190px
-}
 
 
-.about-me img {
-  margin-top: 40px;
-}
  /*-------Gallery-------*/
 
  #photo {
@@ -102,8 +95,8 @@ h1:hover {
   border: 2px solid #ccc;
   background-color: #eee;
   border-radius: 5px;
-  padding: 16px;
-  margin: 16px 20px;
+  padding: 40px;
+  margin: 16px 50px;
 }
 
 .inner-container::after {
@@ -146,6 +139,15 @@ h1:hover {
     margin-bottom: 20px;
 }
 
+.about-me-content {
+  margin: 20px 190px
+}
+
+
+.about-me img {
+  margin-top: 40px;
+}
+
 
 .about-me img {
   max-width: 100%;
@@ -166,7 +168,7 @@ h1:hover {
   }
 
   .about-me-content p {
-    text-align: center;
+    
     margin-left: 20px;
     margin-right: 20px;
   }
