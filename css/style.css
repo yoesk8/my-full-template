@@ -22,6 +22,20 @@
   }
 }
 
+@media (max-width: 500px) {
+  .inner-container {
+      text-align: center;
+  }
+  .container img {
+    margin: auto;
+    float: none;
+    display: block;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+}
+
 
 
 /*-------General Styling-------*/
@@ -64,83 +78,44 @@ h1 {
 
 /*-------Testimonials-------*/
 
-
-#testimonials {
-  height: 1000px;
-}
-.home-testimonial {
-  background-color: #231834;
-  height: 600px;
+.testimonials-container {
+  padding-bottom: 200px;
 }
 
-
-.home-testimonial-bottom {
-  background-color: #f8f8f8;
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  position: relative;
-  height: 130px;
-  top: 190px
+.testimonials-container h1 {
+  text-align: center;
 }
 
-.home-testimonial h3 {
-  color: var(--orange);
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase
+.testimonials-container h1:hover {
+  transform:  scale(.9);
 }
 
-.home-testimonial h2 {
-  color: white;
-  font-size: 28px;
-  font-weight: 700
-}
-
-.testimonial-inner {
-  position: relative;
-  top: -174px
-}
-
-.testimonial-pos {
-  position: relative;
-  top: 24px
-}
-
-.testimonial-inner .tour-desc {
+.inner-container {
+  border: 2px solid #ccc;
+  background-color: #eee;
   border-radius: 5px;
-  padding: 40px
+  padding: 16px;
+  margin: 16px 20px;
 }
 
-.color-grey-3 {
-  font-family: "Montserrat", Sans-serif;
-  font-size: 14px;
-  color: #6c83a2
+.inner-container::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-.testimonial-inner img.tm-people {
-  width: 60px;
-  height: 60px;
-  -webkit-border-radius: 50%;
+.inner-container img {
+  float: left;
+  margin-right: 20px;
   border-radius: 50%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  max-width: none
+  height: 90px;
+  width: 90px;
 }
 
-.link-name {
-  font-family: "Montserrat", Sans-serif;
-  font-size: 14px;
-  color: #6c83a2
+.inner-container span {
+  font-size: 20px;
+  margin-right: 15px;
 }
-
-.link-position {
-  font-family: "Montserrat", Sans-serif;
-  font-size: 12px;
-  color: #6c83a2
-}
-
-
 /*------Navbar-------*/
 
 .navbar-brand img {
@@ -245,6 +220,8 @@ label {
    bottom:0;
    width:100%;
 }
+
+
 
 
 
