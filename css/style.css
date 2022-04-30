@@ -65,16 +65,15 @@ h1:hover {
 
 
  /*-------Gallery-------*/
- 
  #gallery-container {
-   min-height: 800px;
+   padding-left: 50px;
+   display: block;
  }
- 
  div.gallery {
-  margin: 10px 10px;
+  margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 200px;
+  width: 180px;
 }
 
 div.gallery:hover {
@@ -219,6 +218,8 @@ margin-bottom: 20px;
 .contact {
   margin-top: 20px;
   height: 800px;
+  background-image: url("../images/pexels-ivan-samkov-4162451.jpg") ;
+  background-size: 100%;
 }
 
 .contact-container {
