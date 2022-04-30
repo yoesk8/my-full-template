@@ -30,7 +30,7 @@
   .inner-container {
       text-align: center;
   }
-  .container img {
+  .gallery-container img {
     margin: auto;
     float: none;
     display: block;
@@ -65,12 +65,16 @@ h1:hover {
 
 
  /*-------Gallery-------*/
-
+ 
+ #gallery-container {
+   min-height: 800px;
+ }
+ 
  div.gallery {
-  margin: 5px;
+  margin: 10px 10px;
   border: 1px solid #ccc;
   float: left;
-  width: 380px;
+  width: 200px;
 }
 
 div.gallery:hover {
