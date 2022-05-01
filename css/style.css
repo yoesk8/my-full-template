@@ -19,6 +19,7 @@
   
   .contact {
   padding-top: 300px;
+  margin-top: 0;
     
   }
   .about-me img {
@@ -216,14 +217,18 @@ margin-bottom: 20px;
 /*------Contact-------*/
 
 .contact {
-  margin-top: 20px;
-  height: 800px;
+  padding-top: 200px;
+  
+  height: 1450px;
   background-image: url("../images/pexels-ivan-samkov-4162451.jpg") ;
   background-size: 100%;
 }
 
+.contact h1 {
+  text-align: center;
+}
 .contact-container {
-  margin-top: 40px;
+  
   margin-bottom: 40px;
 }
 
