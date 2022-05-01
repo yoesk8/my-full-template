@@ -92,18 +92,6 @@ div.desc {
 }
 
 
-
- /* #photo {
-  clear: both;
-  line-height: 0;
-  column-count: 4;
-  column-gap: 0px;
-}
-
-#photo img{
-  width: 100%;
-} */
-
 /*-------Testimonials-------*/
 
 .testimonials-container {
@@ -262,6 +250,26 @@ label {
     position:absolute;
    bottom:0;
    width:100%;
+}
+
+i.fa-twitter:hover {
+  color: #1DA1F2;
+
+}
+
+i.fa-youtube:hover {
+  color: 	#FF0000;
+
+}
+
+i.fa-facebook-f:hover {
+  color: #4267B2;
+
+}
+
+i.fa-instagram:hover {
+  color: #833AB4;
+
 }
 
 
