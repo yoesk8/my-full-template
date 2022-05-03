@@ -144,7 +144,7 @@ The website has below features:
 ## Footer
 
 * Footer is consistent on all pages. It has social links centered on it.
-Each link will open in a separate tab in a browser.
+Each link will open in a separate tab in a browser. I've also added hover effects to each of them based on the color of the social media site.
 
 ## Home
 
@@ -298,21 +298,22 @@ When displayed on mobile devices the form in the contact page would look out of 
 ## Performance testing
 
 I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
-I had to do couple of changes to improve performance. Screenshots are presented below:
+I had to do several changes to improve performance, specially replacing images for lighter formats such as .webp which improved the performance significantly. Screenshots are presented below:
 
-![bug_performance1](testing/performance1.png)
-![bug_performance2](testing/performance2.png)
+
 
 Final results:
-![performance_final](testing/performance_final.png)
+![performance_final](images/Screenshot_2022-05-03_at_14.08.14.png?raw=true)
 I noticed that this tests scores vary from time to time and depends on external libraries as well. 
 
 
 
 ## Code Validation
- At the and of the project I used two websites to validate a code
+ At the and of the project I used two websites to validate my code
  
  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
+
+
  * [Nu Html Checker](https://validator.w3.org/) to test HTML
 
 
@@ -326,20 +327,20 @@ I used push command in Gitpod to save changes into GitHub.
 
 To deploy a project I had to:
 
-* Log in to GitHub and click on repository to deploy ([MP1](https://github.com/marcin-kli/MP1))
+* Log in to GitHub and click on repository to deploy ([portfolio-project-1](https://yoesk8.github.io/portfolio-project-1/))
 * select `Settings` and find GitHub Pages section at the very bottom of the page
-* from source select `none` and then `Milestone-Projects` branch.
+* from source select `root` and then `main` branch.
 * click `save` and page was deployed after auto-refresh.
->  Your site is published at https://marcin-kli.github.io/MP1/
+>  Your site is published at https://yoesk8.github.io/portfolio-project-1/
 
 To run localy:
-* Log in to GitHub and click on repository to download ([MP1](https://github.com/marcin-kli/MP1))
+* Log in to GitHub and click on repository to download ([portfolio-project-1](https://yoesk8.github.io/portfolio-project-1/))
 * select `Code` and click Download the ZIP file.
 * after download you can extract the file and use it in your local environment 
 
 Alternatively you can [Clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
-this repository ([MP1](https://github.com/marcin-kli/MP1)) into your github account.
+this repository ([portfolio-project-1](https://yoesk8.github.io/portfolio-project-1/)) into your github account.
 
 [Back to Table of contents](#table-of-contents)
 ___
@@ -355,27 +356,24 @@ ___
     * [css-tricks.com](https://css-tricks.com/)
 
     * [getbootstrap.com/docs](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-        I used code for navbar, jumbotron and card from Bootstrap.
+        I used code for navbar and the form in contact page from Bootstrap.
+    * [stackoverflow.com](https://stackoverflow.com/) I used stack overflow constantly whenever I was unsure about HTML or CSS syntax or wanted to find an easier more stream-lined way of doing things
+    * [mdbootstrap.com](https://mdbootstrap.com/snippets/standard/mdbootstrap/2886162#html-tab-view) I used and modified this footer with social media icons
 
 ### Code
 
-* Links transition: [CSS transition Property](https://www.w3schools.com/cssref/css3_pr_transition.asp)
-* Bootstrap: [Kitchen sink](https://getbootstrap.com/docs/4.0/components/card/#kitchen-sink)
-* Bootstrap: [Burger menu](https://getbootstrap.com/docs/4.5/components/navbar/#text)
-* Bootstrap: [Jumbotron](https://getbootstrap.com/docs/4.5/components/jumbotron/)
+
+* Bootstrap: [Navbar](https://getbootstrap.com/docs/4.0/components/navbar/)
+* MDBootstrap: [Sticky footer](https://mdbootstrap.com/snippets/standard/mdbootstrap/2886162#html-tab-view)
 * Bootstrap: [Form](https://getbootstrap.com/docs/4.5/components/forms/)
 ### Content:
 *  General content:  [fitlife.ie](http://fitlife.ie/lessons-its-your-life-your-fit-life/)
 
-### Map location:
-* [fitlife.ie](http://fitlife.ie/)
 
-### Map:
-* [Google maps](https://www.google.com/maps?ll=52.059441,-9.511501&z=16&t=m&hl=en-US&gl=US&mapclient=embed&cid=7306226195280410511)
 
 ### Images:
 
-#### Unsplash.com:
+#### Pexels.com:
 * [annie-spratt--l-eemJU0vE-unsplash.jpg](https://unsplash.com/photos/-l-eemJU0vE)
 
 * [ziphaus-SZ40Lbw1P5o-unsplash.jpg](https://unsplash.com/photos/SZ40Lbw1P5o)
