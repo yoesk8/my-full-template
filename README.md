@@ -186,7 +186,7 @@ ___
 * As a style language.
 
 ### Bootstrap 
-* Bootstrap@4.5.3 as a CSS framework to keep responsive, mobile first aproach.
+* Bootstrap as a CSS framework to keep responsive, mobile first aproach.
 
 ### Font Awesome
 * As an icon library for a social links.
@@ -220,7 +220,7 @@ ___
 ## Compatibility testing
  Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in Chrome developer tools. 
  
- I tested on hardware devices such as: Ipad air with iOS, Iphone 13 mini with iOS 15.4, Macbook air with .
+ I tested on hardware devices such as: Ipad air with iOS, Iphone 13 mini with iOS 15.4, Macbook air with MacOS
 
 
 ## User stories testing
@@ -357,7 +357,7 @@ ___
     * [getbootstrap.com/docs](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
         I used code for navbar and the form in contact page from Bootstrap.
     * [stackoverflow.com](https://stackoverflow.com/) I used stack overflow constantly whenever I was unsure about HTML or CSS syntax or wanted to find an easier more stream-lined way of doing things
-    * [mdbootstrap.com](https://mdbootstrap.com/snippets/standard/mdbootstrap/2886162#html-tab-view) I used and modified this footer with social media icons
+   
 
 * Other Tools:
   
@@ -369,6 +369,8 @@ ___
 * Bootstrap: [Navbar](https://getbootstrap.com/docs/4.0/components/navbar/)
 * MDBootstrap: [Sticky footer](https://mdbootstrap.com/snippets/standard/mdbootstrap/2886162#html-tab-view)
 * Bootstrap: [Form](https://getbootstrap.com/docs/4.5/components/forms/)
+* [mdbootstrap.com](https://mdbootstrap.com/snippets/standard/mdbootstrap/2886162#html-tab-view) I used and modified this footer with social media icons
+* [https://bbbootstrap.com/](https://bbbootstrap.com/snippets/simple-contact-form-74408136) I used and modified this form
 
 ### General Content:
 
