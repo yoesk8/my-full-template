@@ -37,7 +37,7 @@ Main aim is to build responsive website with HTML and CSS only. I will use Boots
     - [Performance testing](#performance-testing)
 - [Deployment](#deployment)
 - [Credits](#credits)
-- [Screenshots](#screenshots)
+
 
 
 # UX
@@ -65,12 +65,12 @@ Also this website is the best place to show types of personal training, his qual
 
 ### As a business owner:
 * I would like to present myself and my offer on the website clearly to potential customers.
-* I need to make sure that my current and new customers will find a professional help with their diets, personal or group trainings.
+* I need to make sure that my current and new customers will find a professional help with their personal or group training programs.
 * I want my customers to be able to learn how to use my website intuitively and easily.
 * I would like to build and maintain relationship with potential and current customers.
 
 ### As a new customer:
-* I wish to find information about personal trainer and check his qualifications.
+* I wish to find information about the personal trainer and check his qualifications.
 * I would like to be able to contact the trainer with any questions I may have about his services. 
 * I want to join in a fitness group with professional trainer, to find motivation and spend time actively.
 
@@ -148,9 +148,9 @@ Each link will open in a separate tab in a browser. I've also added hover effect
 
 ## Home
 
-* ### About me section
+* ### About section
 
-    * About me section includes a description of the personal trainer's personna, qualities, qualifications and approach to personal training
+    * About section includes a description of the personal trainer's personna, qualities, qualifications and approach to personal training
 
 * ### Testimonials section
 
@@ -160,7 +160,7 @@ Each link will open in a separate tab in a browser. I've also added hover effect
 
 ## Gallery
 
-* This page has captioned pictures of 1on1 training session plus pictures of the studio used for the training and its facilities 
+* This page has captioned pictures of 1 on 1 training session plus pictures of the studio used for the training and its facilities 
 
 ## Contact
 
@@ -191,8 +191,6 @@ ___
 ### Font Awesome
 * As an icon library for a social links.
 
-### Google fonts
-* As a font resource.
 
 ### GitHub
 * As a software hosting platform to keep project in a remote location.
@@ -239,7 +237,7 @@ ___
     > Each site has a fixed navigation menu and is accessible at all times. All content is presented with minimalistic approach.
 
 - I would like to build and maintain relationship with potential and current customers.
-    > Customers are able to find a links to social channels at the bottom of each page. Alternatively they can contact by email or contact form.
+    > Customers are able to find a links to social channels at the bottom of each page. Alternatively they can contact via the contact form.
 
 
 ### As a new customer:
@@ -304,6 +302,7 @@ I had to do several changes to improve performance, specially replacing images f
 
 Final results:
 ![performance_final](images/Screenshot_2022-05-03_at_14.08.14.png?raw=true)
+
 I noticed that this tests scores vary from time to time and depends on external libraries as well. 
 
 
@@ -360,52 +359,55 @@ ___
     * [stackoverflow.com](https://stackoverflow.com/) I used stack overflow constantly whenever I was unsure about HTML or CSS syntax or wanted to find an easier more stream-lined way of doing things
     * [mdbootstrap.com](https://mdbootstrap.com/snippets/standard/mdbootstrap/2886162#html-tab-view) I used and modified this footer with social media icons
 
+* Other Tools:
+  
+   * [ezgif.com](https://ezgif.com/jpg-to-webp/) I used ezgif to convert my images to lighter formats which improved the performance of the site significantly
+
 ### Code
 
 
 * Bootstrap: [Navbar](https://getbootstrap.com/docs/4.0/components/navbar/)
 * MDBootstrap: [Sticky footer](https://mdbootstrap.com/snippets/standard/mdbootstrap/2886162#html-tab-view)
 * Bootstrap: [Form](https://getbootstrap.com/docs/4.5/components/forms/)
-### Content:
-*  General content:  [fitlife.ie](http://fitlife.ie/lessons-its-your-life-your-fit-life/)
+
+### General Content:
+
+*  Testimonials:  [trustpilot.com](https://uk.trustpilot.com/review/westlondonpersonaltraining.co.uk)
+
+
 
 
 
 ### Images:
 
 #### Pexels.com:
-* [annie-spratt--l-eemJU0vE-unsplash.jpg](https://unsplash.com/photos/-l-eemJU0vE)
+* [images/pexels-thisisengineering-3912953.jpg](https://www.pexels.com/photo/man-in-black-crew-neck-t-shirt-standing-in-front-of-boxing-gloves-3912953/) Photo by ThisIsEngineering from Pexels 
 
-* [ziphaus-SZ40Lbw1P5o-unsplash.jpg](https://unsplash.com/photos/SZ40Lbw1P5o)
+* [images/pexels-thisisengineering-3912956.jpg](https://www.pexels.com/photo/person-holding-black-tablet-3912956/) Photo by ThisIsEngineering from Pexels
 
-* [bruce-mars-y0SMHt74yqc-unsplash.jpg](https://unsplash.com/photos/y0SMHt74yqc)
+* [images/pexels-thisisengineering-3912952.jpg](https://www.pexels.com/photo/person-holding-black-smartphone-3912952/) Photo by ThisIsEngineering from Pexels 
 
-* [luis-quintero-EPrjIYQrpkU-unsplash.jpg](https://unsplash.com/photos/EPrjIYQrpkU)
+* [images/pexels-pixabay-416717.jpg](https://www.pexels.com/photo/athlete-barbell-bodybuilder-bodybuilding-416717/) Photo by Pixabay from Pexels
 
-* [sven-scheuermeier-saGbrA6s8g0-unsplash.jpg](https://unsplash.com/photos/saGbrA6s8g0)
+* [images/pexels-bruno-bueno-2204196.jpg](https://www.pexels.com/photo/man-lying-while-doing-barbell-2204196/) Photo by Bruno Bueno from Pexels
+
+* [images/pexels-ivan-samkov-4162451.jpg](https://www.pexels.com/photo/black-and-red-dumbbells-4162451/) Photo by Ivan Samkov from Pexels
+
+* [images/pexels-amar-preciado-9958667.jpg"](https://www.pexels.com/photo/people-in-gym-working-out-with-weightlifting-9958667/) Photo by Amar Preciado from Pexels
+
+* [images/pexels-andres-ayrton-6551097.jpg](https://www.pexels.com/photo/young-asian-male-trainer-checking-fitness-equipment-while-instructing-overweight-female-6551097/) Photo by Andres  Ayrton from Pexels
+
+* [images/pexels-koolshooters-9944640.jpg](https://www.pexels.com/photo/two-people-doing-boxing-9944640/) Photo by KoolShooters from Pexels
+
+* [images/pexels-thisisengineering-3912516.jpg](https://www.pexels.com/photo/man-in-black-crew-neck-t-shirt-standing-inside-boxing-ring-3912516/) Photo by ThisIsEngineering from Pexels 
+
+* [images/pexels-thisisengineering-3912952.jpg](https://www.pexels.com/photo/person-holding-black-smartphone-3912952/) Photo by ThisIsEngineering from Pexels 
 
 
 [Back to Table of contents](#table-of-contents)
 ___
 
-# Screenshots
-
-## Project screenshots
-
-![bug_performance1](md_images/screenshots/home_1.png)
-
-![bug_performance1](md_images/screenshots/home_2.png)
-
-![bug_performance1](md_images/screenshots/about.png)
-
-![bug_performance1](md_images/screenshots/offer_1.png)
-
-![bug_performance1](md_images/screenshots/offer_2.png)
-
-![bug_performance1](md_images/screenshots/offer_3.png)
-
-![bug_performance1](md_images/screenshots/contact.png)
 
 
-[Back to Table of contents](#table-of-contents)
+
 ___
