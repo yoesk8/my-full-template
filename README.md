@@ -85,34 +85,44 @@ The website is designed to be easy and user-friendy on all type of devices. On d
 
 ## Wireframes
 
-I used website wireframe.cc to create a wireframes.
+I used website balsamiq.cloud to create the wireframes for desktop, tablet and mobile view.
 
-![Wireframes](md_images/wireframes.png)
+## Desktop View
+
+![Desktop Wireframes](images/Desktop_View.png?raw=true)
+
+## Tablet View
+
+![Tablet Wireframes](images/Tablet_View.png?raw=true) 
+
+## Mobile View
+
+![Mobile Wireframes](images/Mobile_view.png?raw=true) 
 
 ## Surface
 
 ### Colors
 Main colours used in a project:
-* background color: #ccddff
-* font color: #6217ee
-* link color: #ff6600
-* hoover color: #ff9000
+* background color: #ffffff
+* navigation bar color: #212429
+* footer color1: #f0f0f0
+* footer color2: #c0c0c0
 
 ### Fonts 
 
-* As a main font I used Almarai, and as a backup font sans-serif
+* As a main font I used Lato, and as a backup font sans-serif
 
 ### Images
 
-* I used images from [Unspalsh.com](www.unsplash.com) and there are credited in [credits](#credits) section.
+* I used images from [pexels.com](www.pexels.com) and there are credited in [credits](#credits) section.
 
 
 [Back to Table of contents](#table-of-contents)
 ___
 # Features
 
-The website consists of 6 pages. Four are accessible from a navigation menu.
-One is a 404 error page and one is a submission confirmation page for a form.
+The website consists of 3 pages. One of which is divided into 3 sections. Every page and section is accessible from the navigation menu.
+
 
 The website has below features:
 
@@ -122,35 +132,29 @@ The website has below features:
 * Navigation scheme:
 
     * On left side there is a logo. It can be used as navigation link to the main page.
-    * On right side there are four links or burger menu. It contains:
+    * On right side there are five links or a burger menu. (Note: If on the Gallery or Contact Page there will only be 3 links instead of 5) It contains:
         * Home
-        * About me
-        * Offer
+        * About 
         * Contact
+        * Testimonials
+        * Gallery
 
-## Timetable
 
-* Each site has a timetable on the bottom. Customers can find classes times here.
 
 ## Footer
 
-* Footer is consistent on all pages. It has contact details on left side and social links on right side.
+* Footer is consistent on all pages. It has social links centered on it.
 Each link will open in a separate tab in a browser.
 
 ## Home
 
-* ### Portfolio section
+* ### About me section
 
-    * Portfolio includes an image on the left side and profession information on the right side.
-This section is consistent on all pages.
+    * About me section includes a description of the personal trainer's personna, qualities, qualifications and approach to personal training
 
-* ### Career path section
+* ### Testimonials section
 
-    * Career path section contains top achievements and career  points. It is presented as a timeline.
-
-* ### Packages section
-
-    * This part has three packages to choose for a customers. All buttons are linked to offer site.
+    * This section includes 3 separate testimonials from former and current clients of the personal trainer in question, allowing 
 
 ## About me
 
@@ -202,11 +206,10 @@ ___
 ### Gitpod
 * As a development hosting platform.
 
-### Wireframe.cc
+### Balsamiq.cloud
 * As a wireframing tool.
 
-### GNU Image Manipulation Program [GIMP]
-* As an image editor.
+
 
 
 [Back to Table of contents](#table-of-contents)
