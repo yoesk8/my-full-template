@@ -98,6 +98,10 @@ div.desc {
   padding-bottom: 200px;
 }
 
+.testimonials-container img {
+  border-radius: 50%;
+}
+
 .testimonials-container h1 {
   text-align: center;
 }
