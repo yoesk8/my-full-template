@@ -154,28 +154,25 @@ Each link will open in a separate tab in a browser.
 
 * ### Testimonials section
 
-    * This section includes 3 separate testimonials from former and current clients of the personal trainer in question, allowing 
+    * This section includes 3 separate testimonials from former and current clients of the personal trainer in question.
 
-## About me
 
-* About me gives information about Annie's life and her professional background.
 
-## Offer
+## Gallery
 
-* This site provide packages description to customers.
-Here they can find more information and choose interesting offer.
+* This page has captioned pictures of 1on1 training session plus pictures of the studio used for the training and its facilities 
 
 ## Contact
 
-* Contact form is a main part on this site. User can contact by filling a form with interesting topic.
-Below a form there is a map with location of a fitness studio.
+* Contact form is a main part on this site. User can contact by filling a form with topic of interest.
+There's also an aditional text field to include any additional questions.
 
 ##  Future implementations
 
-* Create diet coach offer.
-* Add new site with class descriptions.
+
+* Add new page with personal training packages descriptions.
 * A blog site with fitness advises.
-* Login site for paid content including videos, meals ideas and recipes.
+* Login site for paid content including videos, exercise's how to, meal planning and healthy meals recipes.
 
 
 [Back to Table of contents](#table-of-contents)
@@ -219,15 +216,13 @@ ___
 
 ## Functionality testing 
 
- I used Mozilla web developer tools and Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
- 
- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) extension to chrome browser was very helpful.
+ I used Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
 
 
 ## Compatibility testing
- Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
+ Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in Chrome developer tools. 
  
- I tested on hardware devices such as: Lenovo ideapad with Ubuntu and Windows OS's, Lenovo smartphone with Android 7, Google pixel 3 with Android 11.
+ I tested on hardware devices such as: Ipad air with iOS, Iphone 13 mini with iOS 15.4, Macbook air with .
 
 
 ## User stories testing
@@ -235,10 +230,10 @@ ___
 ### As a business owner:
 
 - I would like to present myself and my offer on the website clearly to potential customers.
-    > Name, photo of the instructor and top skills are on each page in portfolio section. Career path section at home page provides more details.
+    > Name, photo of the instructor and qualifications are on the Home Page in the About section
 
-- I need to make sure that my current and new customers will find a professional help with their diets, personal or group trainings.
-    > Customers can achieve this by contacting through contact form. They can choose interesting topic and describe their needs in a message box.
+- I need to make sure that my current and new customers will be able to contact me with any questions on training, exercises or business enquiries
+    > Customers can achieve this by contacting through contact form. They can choose their topic of interest or goal and describe their needs in a message box.
 
 - I want my customers to be able to learn how to use my website intuitively and easily.
     > Each site has a fixed navigation menu and is accessible at all times. All content is presented with minimalistic approach.
@@ -248,64 +243,57 @@ ___
 
 
 ### As a new customer:
-- wish to find information about personal trainer and check her/his qualifications.
-    > User can see essential description on the home page. More information can be find in about page.
+- I wish to find information about the personal trainer and check his qualifications.
+    > User can see essential description on the home page, specifically in about section.
 
-- I would like to contact with a diet coach to change my eating habits and start healthy lifestyle.
-    > User can find a contact form in contact page. Alternatively can use an email. Email address if located in a footer the bottom of each page.
+- I would like to get in touch with the trainer to ask him about his approach on programing training cycles.
+    > User can find a contact form in contact page. 
 
-- I want to join in a fitness group with professional trainer, to find motivation and spend time actively.
-    > Brief class description of fitness group classes can be find on the home page below career path section. Offer site provides more detailed description. Frome there user can click contact us button and send a message to the traier.
 
 ### As a returning customer:
-- I need to contact my diet coach to reschedule my meeting.
-    > User can find a contact form in contact page. Alternatively can use social channels or email.
+- I need to contact my trainer to reschedule my session.
+    > User can find an option 'Reschedule my session' in the contact form in contact page. Alternatively can use social channels found at the bottom of the page.
 
-- I would like to check timetable for current days and times for a group trainings.
-    > Each site has time table at the bottom of the page.
 
-- I want to show my friend a location of the fitness studio where we can join for a semi private personal training.
-    > Each page contains location information in a footer. Users are able to find a location map in contact page.
+- I want to show my friend pictures of the fitness studio where we can join for a 2 on 1  personal training session.
+    > Gallery page has pictures of both the studio and sessions with other clients in development.
 
 
 ---
 ## Issues found during site development
 
-* #### Horizontal scrolling bar on the bottom of the screen.
-![testing_issue_1](testing/testing_issue_1.png)
+* #### Footer not staying at the bottom of the screen in mobile devices
+![testing_issue_1](images/Screenshot_2022-05-03_at_11.20.57.png?raw=true)
 
-I used [grid markup](https://getbootstrap.com/docs/4.5/components/card/#header-and-footer)
-to create two sepereate collumns. To achieve this I had to use *.row* in first *div* element and *.col-sm-6* in the second *div* element.
-After that I found that horizontal scrolling bar appear on the bottom of the screen.
-Using mozilla developer tools I noticed that by default class *.row* has *margin-right: -15px;* and *margin-left: -15px;*
+When displaying the website on mobile devices, my footer would move to the middle of the screen instead of staying at the bottom, blocking important elements and damaging the overall user experience.
 
-To fix this I created new class *.no-row-margin* and set both margins to 0px.
+> I fixed it by wrapping the whole page in a div that would act as a container, then setting it's minimum height to 100% of the viewport (vh) and giving it a position of relative. As it is relative it's child elements (In this case the footer) could be set with absolute position based on it.
 
-> After I gain more experience with bootstrap I found that I could achive this by [no-gutters](https://getbootstrap.com/docs/4.0/layout/grid/#no-gutters) class.
-
-> I read bootstrap documentation about [Spacing](https://getbootstrap.com/docs/4.0/utilities/spacing/) and I decided to use predefined classes for paddings and margins in the project.
-By doing this I think my code looks cleaner and will be easier to understand by other developers.
+> Then I set the footer position to absolute, sticking to the bottom:0 
 
 
-* #### Ipad screen compatibility
 
-I found a bugs on Ipad screens. I would like to keep years dates just above the stars, but they were shifted.
+* #### Form in Contact Page being out of place in mobile devices
 
-![testing_issue_2](testing/testing_ipad_screen.png)
+![testing_issue_1](images/Screenshot_2022-05-03_at_11.59.47.png?raw=true)
 
-I had to create a block element with a class "ipad-screen" and non-breaking space element inside a block element.
-In CSS file I had to create @media rule that will show this block element on Ipad displays only.
+When displayed on mobile devices the form in the contact page would look out of placed and misaligned
 
->}
-@media screen and (max-width: 991px) and (min-width: 0px),(min-width:1200px){
-    .ipad-screen {
-    display: none;
-}
-}
+> I fixed this by adding a media querie that would add an additional padding of 300px when the height of the screen dropped to below 1200px (Tablets and mobile devices).
 
-![bug_solutino1](testing/bug_solution1.png)
+> I also had to set the top margin to 0 as it was pushing the whole div downwards
 
-![bug_solutino2](testing/bug_solution2.png)
+> This pushes the form to a more centred position therefore improving user experience, below the solution:
+
+@media screen and (max-width:1200px) {
+
+.contact {
+  padding-top: 300px;
+  margin-top: 0;
+    
+  }
+
+
 
 ## Performance testing
 

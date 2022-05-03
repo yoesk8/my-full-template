@@ -154,19 +154,24 @@ div.desc {
     margin-bottom: 20px;
 }
 
+.about-me-img {
+  margin-top: 100px;
+  height: 600px;
+  width: 100%;
+  background-image: url("../images/pexels-thisisengineering-3912953.jpg");
+  background-size: 100% 100%;
+}
+
+.about-me-img img {
+  object-fit: cover;
+}
+
 .about-me-content {
   margin: 20px 190px
 }
 
 
-.about-me img {
-  margin-top: 40px;
-}
 
-
-.about-me img {
-  max-width: 100%;
-}
 
 .about-me-content  {
 
