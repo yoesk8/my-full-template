@@ -163,7 +163,7 @@ div.desc {
   height: 600px;
   width: 100%;
   background-image: url("../images/ezgif.com-gif-maker (3).webp");
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .about-me-img img {
@@ -171,16 +171,12 @@ div.desc {
 }
 
 .about-me-content {
-  margin: 20px 190px
+  margin: 20px 190px;
+  min-height: 600px;
 }
 
 
 
-
-.about-me-content  {
-
-  min-height: 600px;
-  }
 
   .about-me-content strong{
     display: block;
