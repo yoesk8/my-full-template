@@ -37,6 +37,7 @@ Main aim is to build responsive website with HTML and CSS only. I will use Boots
     - [Performance testing](#performance-testing)
 - [Deployment](#deployment)
 - [Credits](#credits)
+- [Screenshots](#screenshots)
 
 
 
@@ -132,11 +133,9 @@ The website has below features:
 * Navigation scheme:
 
     * On left side there is a logo. It can be used as navigation link to the main page.
-    * On right side there are five links or a burger menu. (Note: If on the Gallery or Contact Page there will only be 3 links instead of 5) It contains:
+    * On right side there are three links or a burger menu.  It contains:
         * Home
-        * About 
         * Contact
-        * Testimonials
         * Gallery
 
 
@@ -160,7 +159,7 @@ Each link will open in a separate tab in a browser. I've also added hover effect
 
 ## Gallery
 
-* This page has captioned pictures of 1 on 1 training session plus pictures of the studio used for the training and its facilities 
+* This page has pictures of 1 on 1 training session plus pictures of the studio used for the training and its facilities 
 
 ## Contact
 
@@ -409,7 +408,24 @@ ___
 [Back to Table of contents](#table-of-contents)
 ___
 
+# Screenshots
+
+## Project screenshots
+
+### Home Page
+
+![Home Page](images/Screenshot_home_page.png)
+![About-Me](images/Screenshot_about_me.png)
+![Testimonials](images/Screenshot_testimonials_page.png)
+
+### Contact Page
+
+![Contact Page](images/Screenshot_contact_page.png)
+
+### Gallery Page
+
+![Gallery Page](images/screenshot_gallery.png)
 
 
-
+[Back to Table of contents](#table-of-contents)
 ___
