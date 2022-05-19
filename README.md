@@ -2,7 +2,7 @@
 
 ## User-Centric Frontend Development Milestone Project.
 
-![Alt text](images/Screenshot-2022-05-02-at-11.33.49.png?raw=true)
+![Alt text](images/Screenshot_amIresponsive.png)
 
 Website presents Yoel's portfolio-1 project for a Personal trainer.
 Users will be able to find interesting content in easy and simple way.
